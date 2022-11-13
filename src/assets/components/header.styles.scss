@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+    .logo {
+        width: 20%;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    nav {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+}

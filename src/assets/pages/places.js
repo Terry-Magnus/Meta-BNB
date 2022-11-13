@@ -1,5 +1,7 @@
+import Header from "../components/header.component";
+
 const Places = () => {
-    return <div>This is the places route</div>
+    return <Header />
 }
 
 export default Places;

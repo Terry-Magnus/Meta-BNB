@@ -1,30 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Red+Rose:wght@400;600&display=swap');
+@import url(./assets/components/header.styles.scss);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .App {
     text-align: center;
+    font-family: 'Red Rose';
 
     // general styles
+    .keyword {
+        color: #A02279;
+    }
+
     .btn {
         background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
         border-radius: 10px;
         border: 0;
         color: white;
-        padding: 10px 15px;
+        padding: 10px 20px;
     }
 
-    // header componenet
-    header {
+    // Hero component
+    .hero {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        margin: 30px;
 
-        nav {
-            width: 40%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        .hero-info {
+            width: 80%;
+            text-align: center;
 
-            a {
-                text-decoration: none;
-                color: #000;
+            h1 {
+                margin-top: 20px;
             }
+
+            p {
+                margin-block: 20px;
+                font-size: 24px;
+            }
+
+            @media(min-width: 576px) {
+                text-align: left;
+                width: 60%;
+            }
+        }
+
+        .hero-img {
+            width: 35%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        input {
+            height: 50px;
+            width: 250px;
+            padding-left: 10px;
+        }
+
+        button {
+            border-radius: 0;
+            width: 150px;
+            height: 50px;
+
+        }
+
+        @media(min-width: 576px) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    .sponsors {
+        background-color: #A02279;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+            height: 30px;
         }
     }
 
