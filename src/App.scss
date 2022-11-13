@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+
+    // general styles
+    .btn {
+        background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+        border-radius: 10px;
+        border: 0;
+        color: white;
+        padding: 10px 15px;
+    }
+
+    // header componenet
+    header {
+        display: flex;
+        justify-content: space-between;
+
+        nav {
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+
+}

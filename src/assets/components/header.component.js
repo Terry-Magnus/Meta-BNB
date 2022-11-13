@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../images/logo-header.png"
+import logo from "../images/logo-header.png"
 
 const Header = () => {
     return (
@@ -11,7 +11,7 @@ const Header = () => {
                 <Link to="#">NFTs</Link>
                 <Link to="#">Community</Link>
             </nav>
-            <button>Connect Wallet</button>
+            <button className="btn">Connect Wallet</button>
         </header>
     )
 }
