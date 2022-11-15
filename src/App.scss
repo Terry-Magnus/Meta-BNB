@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Red+Rose:wght@400;600&display=swap');
 @import url("./assets/components/header.styles.scss");
 @import url("./assets//components//card/card.styles.scss");
-$bp-mobile: 576px;
+@import url("./assets//components/footer.styles.scss");
+
+$bp-tablet: 768px;
+$bp-mobile: 480px;
 
 * {
     margin: 0;
@@ -35,8 +37,9 @@ $bp-mobile: 576px;
         margin: 30px;
 
         .hero-info {
-            width: 80%;
+            width: 100%;
             text-align: center;
+            order: 2;
 
             h1 {
                 margin-top: 20px;
@@ -47,16 +50,16 @@ $bp-mobile: 576px;
                 font-size: 24px;
             }
 
-            @media(min-width: $bp-mobile) {
+            @media(min-width: $bp-tablet) {
                 text-align: left;
-                width: 60%;
+                width: 80%;
             }
         }
 
         .hero-img {
             width: 35%;
 
-            img {
+            order: 1 img {
                 width: 100%;
             }
         }
@@ -101,20 +104,4 @@ $bp-mobile: 576px;
         }
 
     }
-
-    footer {
-        background: #000;
-        padding: 30px;
-
-        .footer-logo {
-            width: 20%;
-            display: flex;
-            align-items: center;
-
-            img {
-                width: 100%;
-            }
-        }
-    }
-
 }

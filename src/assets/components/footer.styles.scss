@@ -1,0 +1,14 @@
+footer {
+    background: #000;
+    padding: 30px;
+
+    .footer-logo {
+        width: 20%;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -13,6 +13,7 @@ const Header = () => {
                 <Link to="#">Community</Link>
             </nav>
             <button className="btn">Connect Wallet</button>
+            <div className="menu-toggle"></div>
         </header>
     )
 }

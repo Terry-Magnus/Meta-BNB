@@ -14,8 +14,34 @@ const Footer = () => {
                     <Link to="#"><img src={instagram} alt="instagram" /></Link>
                     <Link to="#"><img src={twitter} alt="twitter" /></Link>
                 </div>
-
             </div>
+            <div className="footer-right">
+                <div>
+                    <h2>Home</h2>
+                    <Link to="#">Tokens</Link>
+                    <Link to="#">NFTs</Link>
+                    <Link to="#">Are you kidding</Link>
+                    <Link to="#">Race</Link>
+                    <Link to="#">Dammy</Link>
+                </div>
+                <div>
+                    <h2>Home</h2>
+                    <Link to="#">Tokens</Link>
+                    <Link to="#">NFTs</Link>
+                    <Link to="#">Are you kidding</Link>
+                    <Link to="#">Race</Link>
+                    <Link to="#">Dammy</Link>
+                </div>
+                <div>
+                    <h2>Home</h2>
+                    <Link to="#">Tokens</Link>
+                    <Link to="#">NFTs</Link>
+                    <Link to="#">Are you kidding</Link>
+                    <Link to="#">Race</Link>
+                    <Link to="#">Dammy</Link>
+                </div>
+            </div>
+            <p>&copy; All Rights reserverd.</p>
         </footer>
     )
 }
