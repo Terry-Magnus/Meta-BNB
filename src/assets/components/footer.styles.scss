@@ -1,14 +1,36 @@
 footer {
-    background: #000;
+    background: #000000;
     padding: 30px;
+    color: #fff;
 
-    .footer-logo {
-        width: 20%;
+    .footer-left {
+        margin-bottom: 20px;
+
+        .footer-logo {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .social {
+            text-align: left;
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    .footer-right {
         display: flex;
-        align-items: center;
+        flex-wrap: wrap;
 
-        img {
-            width: 100%;
+        h2 {
+            font-weight: bold;
+            text-align: left;
         }
     }
 }

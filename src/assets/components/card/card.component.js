@@ -13,7 +13,6 @@ const Card = (props) => {
                         return <img key={index} src={require('../../images/star.png')} alt="stars" />
                     })
                 }
-
             </div>
         </div>
     )
