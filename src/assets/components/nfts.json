@@ -1,0 +1,69 @@
+{
+    "images": [
+    {
+        "name": "apartment",
+        "path": "nft-img1.png"
+    },
+    {
+        "name": "fantasy",
+        "path": "nft-img2.png"
+    },
+    {
+        "name": "space-cottage",
+        "path": "nft-img3.png"
+    },
+    {
+        "name": "space-castle",
+        "path": "nft-img4.png"
+    },   
+    {
+        "name": "beach-house",
+        "path": "nft-img5.png"
+    },   
+    {
+        "name": "forest-cottage",
+        "path": "nft-img6.png"
+    },   
+    {
+        "name": "futuristic",
+        "path": "nft-img7.png"
+    },   
+    {
+        "name": "temple",
+        "path": "nft-img8.png"
+    },   
+    {
+        "name": "market",
+        "path": "nft-img9.png"
+    },   
+    {
+        "name": "castle",
+        "path": "nft-img10.png"
+    },   
+    {
+        "name": "factory",
+        "path": "nft-img11.png"
+    },   
+    {
+        "name": "snowy-inn",
+        "path": "nft-img12.png"
+    },   
+    {
+        "name": "motel",
+        "path": "nft-img13.png"
+    },   
+    {
+        "name": "bridge",
+        "path": "nft-img14.png"
+    },   
+    {
+        "name": "condo",
+        "path": "nft-img15.png"
+    },   
+    {
+        "name": "snowy-cottage",
+        "path": "nft-img16.png"
+    }
+    ]
+}
+

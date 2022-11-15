@@ -4,8 +4,8 @@ const Card = (props) => {
         <div className="card">
             <div className="card-img"><img src={require(`../../images/${props.src}`)} alt="nfts" width="100%" /></div>
             <div className="card-body">
-                <p><span>Desert king</span><span><b>1MBT per night</b></span></p>
-                <p><span>2345km away</span><span>available for 2weeks stay</span></p>
+                <p><span className='text-left'>Desert king</span><span className='text-right'><b>1MBT per night</b></span></p>
+                <p><span className='text-left'>2345km away</span><span className='text-right'>available for 2weeks stay</span></p>
             </div>
             <div className="card-rating">
                 {

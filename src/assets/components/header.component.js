@@ -1,8 +1,10 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/logo-header.svg"
 import "./header.styles.scss"
 
 const Header = () => {
+    const [nav, setNav] = useState(false)
     return (
         <header>
             <div className="logo"><img src={logo} alt="logo-header" /></div>

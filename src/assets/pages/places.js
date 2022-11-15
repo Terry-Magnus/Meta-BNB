@@ -6,16 +6,14 @@ const Places = () => {
         <>
             <Header />
             <div className="filters">
-                <ul>
-                    <li>Restaurant</li>
-                    <li>Cottage</li>
-                    <li>Castle</li>
-                    <li>Fantasy City</li>
-                    <li>Beach</li>
-                    <li>Cabin</li>
-                    <li>Off-grid</li>
-                    <li>Farm</li>
-                </ul>
+                <a>Restaurant</a>
+                <a>Cottage</a>
+                <a>Castle</a>
+                <a>Fantasy City</a>
+                <a>Beach</a>
+                <a>Cabin</a>
+                <a>Off-grid</a>
+                <a>Farm</a>
                 <button className="filter">Location <img src={filter} alt="filter" /></button>
             </div>
         </>
