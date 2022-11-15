@@ -10,7 +10,7 @@ const Hero = () => {
                     get a chance to turn your imagination to reality at your comfort zone</p>
                 <form>
                     <input type="search" name="search" placeholder="Search for location" />
-                    <button className="btn" type="submit">Search</button>
+                    <input type="submit" placeholder="Search" />
                 </form>
             </div>
             <div className="hero-img"><img src={heroimg} alt="hero-img" /></div>

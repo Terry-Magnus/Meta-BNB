@@ -4,13 +4,14 @@ header {
     margin: 30px;
 
     .logo {
-        width: 20%;
+        width: 50%;
         display: flex;
         align-items: center;
 
         img {
             width: 100%;
         }
+
     }
 
     nav {
@@ -18,10 +19,32 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        display: none;
 
         a {
             text-decoration: none;
             color: #000;
         }
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    .btn {
+        background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+        border-radius: 10px;
+        border: 0;
+        color: white;
+        padding: 10px 20px;
+        display: none;
+    }
+
+    .menu-toggle {
+        width: 32px;
+        height: 32px;
+        background: url(../images/menu.svg) no-repeat;
+        background-size: contain;
+        cursor: pointer;
     }
 }

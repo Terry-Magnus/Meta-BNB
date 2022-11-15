@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../images/logo-header.png"
+import logo from "../images/logo-header.svg"
 import "./header.styles.scss"
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
                 <Link to="#">NFTs</Link>
                 <Link to="#">Community</Link>
             </nav>
-            <button className="btn">Connect Wallet</button>
+            <div className="btn">Connect Wallet</div>
             <div className="menu-toggle"></div>
         </header>
     )
