@@ -1,6 +1,5 @@
-@import "./assets/components/header.styles";
-@import "./assets//components//card/card.styles";
-@import "./assets//components/footer.styles";
+@import "./assets/components//card/card.styles";
+@import "./assets/components/footer/footer.styles";
 
 
 * {
@@ -16,81 +15,6 @@
     // general styles
     .keyword {
         color: #A02279;
-    }
-
-
-
-    // Hero component
-    .hero {
-        display: flex;
-        flex-direction: column;
-        margin: 30px;
-        align-items: center;
-
-        .hero-info {
-            width: 80%;
-            text-align: center;
-            order: 2;
-
-            h1 {
-                margin-top: 20px;
-            }
-
-            p {
-                margin-block: 20px;
-            }
-
-            @media(min-width: 768px) {
-                text-align: left;
-                width: 60%;
-                order: 1;
-            }
-        }
-
-        .hero-img {
-            width: 80%;
-            order: 1;
-
-            img {
-                width: 100%;
-            }
-
-            @media screen and (min-width: 768px) {
-                order: 2;
-                width: 30%;
-            }
-        }
-
-
-        input[type="search"] {
-            padding-left: 10px;
-            height: 25px;
-            outline: none;
-            width: 200px;
-
-            @media screen and (min-width: 768px) {
-                height: 50px;
-            }
-        }
-
-        input[type="submit"] {
-            border: 0;
-            width: 100px;
-            height: 25px;
-            outline: none;
-            background-color: #A02279;
-            color: #fff;
-
-            @media screen and (min-width: 768px) {
-                height: 50px;
-                width: 150px;
-            }
-        }
-
-        @media screen and (min-width: 768px) {
-            flex-direction: row;
-            justify-content: space-between;
-        }
     }
 
     .sponsors {
@@ -120,5 +44,89 @@
             padding: 0 20px;
         }
 
+    }
+
+
+}
+
+.filters {
+    margin: 20px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+        margin-bottom: 5px;
+    }
+
+    .filter {
+        padding: 5px 10px;
+        width: 120px;
+        background: 0;
+        border-radius: 5px;
+        border: 1px solid #B4B4B4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin: 50px;
+    }
+}
+
+.gift-cards {
+    background: #A02279;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .gift-left {
+        width: 80%;
+        text-align: center;
+        order: 2;
+
+        h1,
+        p {
+            margin-bottom: 20px;
+        }
+
+        @media(min-width: 768px) {
+            text-align: left;
+            width: 40%;
+            order: 1;
+        }
+    }
+
+    button {
+        background: #fff;
+        color: #A02279;
+        padding: 10px 15px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 0;
+    }
+
+    .gift-right {
+        width: 80%;
+        order: 1;
+
+        img {
+            width: 100%;
+        }
+
+        @media screen and (min-width: 768px) {
+            order: 2;
+            width: 50%;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

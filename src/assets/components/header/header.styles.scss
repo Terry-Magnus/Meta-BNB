@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    height: 50px;
+
+    .logo {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        outline: none;
+
+        img {
+            width: 100%;
+        }
+
+        @media screen and (min-width: 768px) {
+            width: 25%;
+        }
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 20px;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        display: none;
+        background-color: #000;
+
+        a {
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+
+            @media screen and (min-width: 768px) {
+                color: #000;
+            }
+        }
+
+        .btn {
+            background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+            border-radius: 10px;
+            border: 0;
+            color: white;
+            padding: 15px 10px;
+        }
+
+
+        @media screen and (min-width: 768px) {
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            background: 0;
+            height: inherit;
+            align-items: center;
+            position: static;
+        }
+    }
+
+    .show {
+        display: flex;
+    }
+
+
+
+    .menu-toggle {
+        width: 25px;
+        height: 25px;
+        background: url(../../images/menu.svg) no-repeat;
+        background-size: contain;
+        background-position: center center;
+        cursor: pointer;
+
+        @media(min-width: 768px) {
+            display: none;
+        }
+    }
+}

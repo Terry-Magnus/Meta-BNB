@@ -1,21 +1,32 @@
-import Header from "../components/header.component";
-import filter from "../images/filters.png"
+import Header from "../components/header/header.component";
+import filterIcon from "../images/settings.svg"
+import nfts from "../components/nfts.json"
+import Card from "../components/card/card.component";
+import Footer from "../components/footer/footer.component";
+import "../../App.scss"
 
 const Places = () => {
     return (
         <>
             <Header />
             <div className="filters">
-                <a>Restaurant</a>
-                <a>Cottage</a>
-                <a>Castle</a>
-                <a>Fantasy City</a>
-                <a>Beach</a>
-                <a>Cabin</a>
-                <a>Off-grid</a>
-                <a>Farm</a>
-                <button className="filter">Location <img src={filter} alt="filter" /></button>
+                <span >Restaurant</span>
+                <span >Cottage</span>
+                <span >Castle</span>
+                <span >Fantasy City</span>
+                <span >Beach</span>
+                <span >Cabin</span>
+                <span >Off-grid</span>
+                <span >Farm</span>
+                <button className="filter">Location <img src={filterIcon} alt="filter" /></button>
+
             </div>
+            <div className="card-deck" style={{ marginBottom: "100px" }}>{
+                nfts.images.map(({ name, path }) => {
+                    return <Card key={name} src={path}></Card>
+                })
+            }</div>
+            <Footer />
         </>
     )
 }

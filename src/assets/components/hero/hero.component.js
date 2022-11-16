@@ -1,4 +1,5 @@
-import heroimg from "../images/hero-img.png"
+import heroimg from "../../images/hero-img.png"
+import "./hero.styles.scss"
 
 const Hero = () => {
     return (
