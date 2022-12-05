@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Meta-BNB/static/css/main.2186106f.css",
+    "main.js": "/Meta-BNB/static/js/main.5d36b287.js",
+    "static/media/nft-group.png": "/Meta-BNB/static/media/nft-group.a8af7e0fa95161e46002.png",
+    "static/media/hero-img.png": "/Meta-BNB/static/media/hero-img.9bafa18b654dfbd5d908.png",
+    "static/media/nft-img6.png": "/Meta-BNB/static/media/nft-img6.44fca6916d0d4697677f.png",
+    "static/media/nft-img3.png": "/Meta-BNB/static/media/nft-img3.707d3a70e29437e2b16d.png",
+    "static/media/nft-img12.png": "/Meta-BNB/static/media/nft-img12.0e96385ae823ebf35cac.png",
+    "static/media/nft-img11.png": "/Meta-BNB/static/media/nft-img11.20c3d45e7fe308ff84cd.png",
+    "static/media/nft-img8.png": "/Meta-BNB/static/media/nft-img8.4f4ad0b7e74d98608418.png",
+    "static/media/nft-img13.png": "/Meta-BNB/static/media/nft-img13.da47faf346cde7791b8a.png",
+    "static/media/nft-img16.png": "/Meta-BNB/static/media/nft-img16.bf1b80f8621080866ea1.png",
+    "static/media/nft-img4.png": "/Meta-BNB/static/media/nft-img4.43d4cf4eb2d63ef5b60f.png",
+    "static/media/nft-img14.png": "/Meta-BNB/static/media/nft-img14.18db18b1a765996af9e2.png",
+    "static/media/nft-img15.png": "/Meta-BNB/static/media/nft-img15.f34dd1a02b711be1f9b4.png",
+    "static/media/nft-img2.png": "/Meta-BNB/static/media/nft-img2.b9539eafb1c658809d97.png",
+    "static/media/nft-img9.png": "/Meta-BNB/static/media/nft-img9.fa4c0248ba5298c1b9c1.png",
+    "static/media/nft-img5.png": "/Meta-BNB/static/media/nft-img5.ec96f5e727686e97fb8d.png",
+    "static/media/nft-img7.png": "/Meta-BNB/static/media/nft-img7.8f8b11a4e2d7d5d2e43e.png",
+    "static/media/nft-img10.png": "/Meta-BNB/static/media/nft-img10.a82060013a371d5630e3.png",
+    "static/media/nft-img1.png": "/Meta-BNB/static/media/nft-img1.d3943238bce66dd39ce6.png",
+    "static/media/metamask.svg": "/Meta-BNB/static/media/metamask.fb52934db13925cb94877c2a07d73fe9.svg",
+    "static/media/opensea.svg": "/Meta-BNB/static/media/opensea.cfd1ca6b48614b8e5c1fac5ac3688b16.svg",
+    "static/media/logo-header.svg": "/Meta-BNB/static/media/logo-header.b160da51a30fe5784b95fd238d732183.svg",
+    "static/media/mbtoken.svg": "/Meta-BNB/static/media/mbtoken.6a2427bee120a728c62147161737f2d5.svg",
+    "static/media/instagram.svg": "/Meta-BNB/static/media/instagram.cab73c7b6facdb7b756d8698d7913465.svg",
+    "static/media/settings.svg": "/Meta-BNB/static/media/settings.1ad45f3268b2970899dd50fd7d8eca9f.svg",
+    "static/media/twitter.svg": "/Meta-BNB/static/media/twitter.ae764d846ec35c6bdbe3935802741b99.svg",
+    "index.html": "/Meta-BNB/index.html",
+    "static/media/arrow-right.svg": "/Meta-BNB/static/media/arrow-right.965360f773e9fdc9cc49d66d6ee92ffd.svg",
+    "static/media/facebook.svg": "/Meta-BNB/static/media/facebook.de2818989d7b9501d054f29c2d2af446.svg",
+    "static/media/setting.zip": "/Meta-BNB/static/media/setting.09257b042d62d2fa2797.zip",
+    "static/media/close.svg": "/Meta-BNB/static/media/close.332ce1a5610dd8facd9b.svg",
+    "static/media/menu.svg": "/Meta-BNB/static/media/menu.f24083c949a792be3b2e.svg",
+    "main.2186106f.css.map": "/Meta-BNB/static/css/main.2186106f.css.map",
+    "main.5d36b287.js.map": "/Meta-BNB/static/js/main.5d36b287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2186106f.css",
+    "static/js/main.5d36b287.js"
+  ]
+}
