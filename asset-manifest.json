@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Meta-BNB/static/css/main.2186106f.css",
-    "main.js": "/Meta-BNB/static/js/main.5d36b287.js",
+    "main.js": "/Meta-BNB/static/js/main.f071d76d.js",
     "static/media/nft-group.png": "/Meta-BNB/static/media/nft-group.a8af7e0fa95161e46002.png",
     "static/media/hero-img.png": "/Meta-BNB/static/media/hero-img.9bafa18b654dfbd5d908.png",
     "static/media/nft-img6.png": "/Meta-BNB/static/media/nft-img6.44fca6916d0d4697677f.png",
@@ -34,10 +34,10 @@
     "static/media/close.svg": "/Meta-BNB/static/media/close.332ce1a5610dd8facd9b.svg",
     "static/media/menu.svg": "/Meta-BNB/static/media/menu.f24083c949a792be3b2e.svg",
     "main.2186106f.css.map": "/Meta-BNB/static/css/main.2186106f.css.map",
-    "main.5d36b287.js.map": "/Meta-BNB/static/js/main.5d36b287.js.map"
+    "main.f071d76d.js.map": "/Meta-BNB/static/js/main.f071d76d.js.map"
   },
   "entrypoints": [
     "static/css/main.2186106f.css",
-    "static/js/main.5d36b287.js"
+    "static/js/main.f071d76d.js"
   ]
 }
